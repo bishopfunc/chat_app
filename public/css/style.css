@@ -1,0 +1,35 @@
+body{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px; /*body余白*/
+}
+
+h1{
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+li{
+  line-height: 2;
+}
+
+input[type="text"]{
+  padding: 6px 8px; /*余白* 上下、左右*/
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 > button {
+  float: right; 
+  /* 右寄せ */
+}
+
+.hidden{
+  display: none;
+  /* 見えない〜 */
+}
